@@ -27,8 +27,8 @@ The generated list of msisdn is in the following format :
 +49 176 00803825
 ```
 
-To remove the spaces : `sed -i s/ //g numlist.txt`
-To remove the duplicates : `cat numlist.txt | sort -u | uniq > numlist-uniques.txt` (will also sort the file)
+* To remove the spaces : `sed -i s/ //g numlist.txt`
+* To remove the duplicates : `cat numlist.txt | sort -u | uniq > numlist-uniques.txt` (will also sort the file)
 
 ## Benchmark
 
