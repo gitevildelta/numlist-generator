@@ -2,6 +2,22 @@
 
 Generator millions of msisdn with 1 command.
 
+## Usage
+
+NB : The generated msisdn list will be written to `numlist.txt`.
+This file is never overwritten.
+
+`deno run --allow-read --allow-write https://raw.githubusercontent.com/gitevildelta/numlist-generator/master/main.ts --count 10 --cc 49 --ndc 176 --snLen 8`
+
+* `--allow-read` is required to verify if `numlist.txt` does not already exists
+* `--allow-write` is required to write the list of msisdn to `numlist.txt`
+
+### Arguments
+
+* `cc` the country code of the msisdn
+* `ndc` the national destination code
+* `snLen` the length of the subscriber number
+
 ## Benchmark
 
 ```
